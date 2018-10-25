@@ -1,9 +1,9 @@
 cc.Class({
     extends: cc.Component,
     properties: {
-        ChallengeMng: a("ChallengeModeRuler"),
+        ChallengeMng: require("ChallengeModeRuler"),
         loseUI: cc.Node,
-        tips: a("Tips"),
+        tips: require("Tips"),
         adCount: 0
     },
     onLoad: function() {
